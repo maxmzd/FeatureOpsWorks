@@ -1,12 +1,4 @@
 unless ::File.exists?("/usr/local/lib/libvips.so")
-  
-  # Install dependencies
-  # packages = %w{ gettext libxml2-dev libglib2.0-dev libfftw3-dev build-essential libjpeg-dev 
-  #  libtiff4-dev zlib1g-dev liblcms2-dev libpng12-dev libmagickcore-dev libmagickwand-dev 
-  #  libfreetype6-dev libpango1.0-dev libfontconfig1-dev libice-dev pkg-config libexif-gtk-dev 
-  #  python-all-dev liborc-0.4-dev libopenexr-dev libmatio-dev libxml2-dev libcfitsio3-dev
-  #}
-  #packages.each { |pkg| package pkg }
 
   # install vips from source
   bash "install vips" do
