@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "name": "vips",
+  "maintainer_email": "unknown",
+  "attributes": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": {
+      },
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Sharded Collections",
+      "description": "collections to shard"
+    },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "unknown",
+  "long_description": "",
+  "version": "0.0.0",
+  "recommendations": {
+  },
+  "recipes": {
+    "vips": "Installs libvips",
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs libvips",
+  "providing": {
+  }
+}
