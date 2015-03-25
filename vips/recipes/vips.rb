@@ -4,7 +4,7 @@ unless ::File.exists?("/usr/local/lib/libvips.so")
   bash "install vips" do
     cwd "/tmp"
     code <<-EOT
-    curl -s https://raw.githubusercontent.com/lovell/sharp/master/preinstall.sh | sudo bash -
+    curl -s https://raw.githubusercontent.com/maxmzd/FeatureOpsWorks/master/preinstall-vips.sh | sudo bash -
     EOT
   end
 
