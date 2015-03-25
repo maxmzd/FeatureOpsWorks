@@ -5,6 +5,7 @@ unless ::File.exists?("/usr/local/lib/libvips.so")
     cwd "/tmp"
     code <<-EOT
     sudo apt-get install libvips libvips-tools
+    Y
     EOT
   end
 
