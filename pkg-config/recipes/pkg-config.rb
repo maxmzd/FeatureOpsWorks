@@ -4,7 +4,7 @@ unless ::File.exists?("/usr/local/lib/pkgconfig.so")
   bash "install pkg-config" do
     cwd "/tmp"
     code <<-EOT
-    sudo apt-get install pkg-config
+    sudo apt-get -y install pkg-config
     EOT
   end
 
